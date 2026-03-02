@@ -5,6 +5,7 @@ class 语法(Enum):
     模块 = auto()
     语句 = auto()
     表达式 = auto()
+    赋值语句 = auto()
     显示语句 = auto()
     名称 = auto()
     常量 = auto()
