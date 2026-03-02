@@ -1,7 +1,9 @@
 
 按[此设想](https://zhuanlan.zhihu.com/p/2011446219843597982)，目标例程：
 
-```
+
+<div dir="rtl">
+
 جمع=0
 
 عدد=1
@@ -15,7 +17,8 @@
 اینجا تمام شد
 
 جمع را نمایش بده
-```
+
+</div>
 
 
 运行环境与依赖同[木兰子集项目](https://gitee.com/MulanRevive/subset-one)。
