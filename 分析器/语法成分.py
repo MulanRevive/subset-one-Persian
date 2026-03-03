@@ -8,8 +8,10 @@ class 语法(Enum):
     表达式 = auto()
     赋值语句 = auto()
     显示语句 = auto()
+    每当语句 = auto()
+    数量计算 = auto()
     量 = auto()
-    名称 = auto()
+    变量 = auto()
     常量 = auto()
 
     def 成分(self, *所有成分):
