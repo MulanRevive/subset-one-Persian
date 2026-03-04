@@ -7,6 +7,7 @@ class 语法(Enum):
     语句 = auto()
     表达式 = auto()
     赋值语句 = auto()
+    增量赋值 = auto()
     显示语句 = auto()
     每当语句 = auto()
     数量计算 = auto()

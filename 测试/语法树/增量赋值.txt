@@ -1,0 +1,20 @@
+Module(
+  body=[AugAssign(
+      target=Name(
+        id='عدد'
+        ctx=Store()
+        lineno=1
+        col_offset=1
+      )
+      op=Add()
+      value=Constant(
+        value=1
+        kind=None
+        lineno=1
+        col_offset=8
+      )
+      lineno=1
+      col_offset=1
+    )]
+  type_ignores=[]
+)

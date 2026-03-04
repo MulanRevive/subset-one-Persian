@@ -22,3 +22,7 @@
 
 
 运行环境与依赖同[木兰子集项目](https://gitee.com/MulanRevive/subset-one)。
+
+## 参考资料
+
+- [re — Regular expression operations](https://docs.python.org/3/library/re.html)

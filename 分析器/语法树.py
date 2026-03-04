@@ -29,6 +29,9 @@ class 语法树:
         elif 类型 == 语法.数量计算:
             if 操作符 == '<=':
                 节点 = ast.Compare(left=左项, ops=[ast.LtE()], comparators=[右项])
+        elif 类型 == 语法.增量赋值:
+            变量.ctx = ast.Store()
+            节点 = ast.AugAssign(target=变量, op=ast.Add(), value=值)
 
         if 片段 is not None:
             节点.lineno = 语法树.取行号(片段)

@@ -12,6 +12,7 @@ class test所有(unittest.TestCase):
         失败表 = {}
 
         for 文件 in 期望值:
+            print(文件, end='：')
             路径 = 测试目录 + 文件
             warnings.simplefilter('ignore', ImportWarning)
             实际值 = 运行算法(路径)
@@ -21,7 +22,7 @@ class test所有(unittest.TestCase):
                 失败表[文件] = 实际值
                 全部通过 = False
             else:
-                print(f"综合：{文件}")
+                print(f"通过")
 
         for 文件 in 失败表:
             print(f"失败： {文件} 期望：{repr(期望值[文件].decode('utf-8'))} 实际：{repr(失败表[文件])}")
