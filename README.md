@@ -1,3 +1,4 @@
+A subset of [ulang programming language](https://github.com/MulanRevive/mulan-rework), with grammar in Persian language. Please let me know how to make it closer to the natural language, as I used  online translator when developing.
 
 按[此设想](https://zhuanlan.zhihu.com/p/2011446219843597982)，目标例程：
 
